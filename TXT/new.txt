@@ -1,0 +1,6 @@
+First name - Evgeny
+Middle name - Vitalyevich
+Last Name - Kolodenets
+Age - 35
+Pets - 0
+Desired country - 1500
