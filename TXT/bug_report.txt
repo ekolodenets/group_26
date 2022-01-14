@@ -1,5 +1,5 @@
 ID - 1
 Title - Not being able to buy items in the cart
-Reproduce - Fill _the with any items and click pay
+Reproduce - Fill the with any items and click pay
 Priority - High
 Severity - Critical
