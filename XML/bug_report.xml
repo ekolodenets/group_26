@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<Bug_report name="File">
+		<ID>1</ID>
+		<Title>"Тot_being_able_to_buy_items_in_the_cart"</Title>
+		<Reproduce>"Fill_the_with_any_items_and_click_pay"</Reproduce>
+		<Priority>"High"</Priority>
+		<Severity>"High"</Severity>
+	</Bug_report>
+</root>
