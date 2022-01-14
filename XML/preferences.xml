@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<List_about_me name="Preferences">
+		<Favourite_movie>"Matrix</Favourite_movie>
+		<Favourite_serial>"Friends"</Favourite_serial>
+		<Favourite_food>"ice_cream"</Favourite_food>
+		<Favourite_season>"Spring"</Favourite_season>
+		<Desired_country>"GB"</Desired_country>
+	</List_about_me>
+</root>
