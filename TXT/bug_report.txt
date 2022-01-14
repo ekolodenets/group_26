@@ -1,0 +1,5 @@
+ID - 1
+Title - Тot_being_able_to_buy_items_in_the_cart
+Reproduce - Fill_the_with_any_items_and_click_pay
+Priority - High
+Severity - Critical
