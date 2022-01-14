@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-	<Type name="User">
+	<Type_of_user name="Main">
 		<First_name>"Evgeny"</First_name>
 		<Middle_name>"Vitalyevich"</Middle_name>
 		<Last_name>"Kolodenets"</Last_name>
 		<Age>35</Age>
 		<Pets>0</Pets>
 		<Desired_salary>1500</Desired_salary>
-	</Type>
+	</Type_of_user>
 </root>
