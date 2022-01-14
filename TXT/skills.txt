@@ -1,0 +1,10 @@
+skill 1 - Command line
+skill 2 - GitHub
+skill 3 - Rest API
+skill 4 - SQL
+skill 5 - DevTools
+skill 6 - Mobile testing
+skill 7 - Postman
+skill 8 - Theory of software testing
+skill 9 - Work with documentations
+skill 10 - Understanding nof client-server architecture
