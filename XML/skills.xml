@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
 	<Type_of_skills name="List_of_skills">
-		<skill_1>"Command_line"</skills_1>
-		<skill_2>"GitHub"</skills_2>
-		<skill_3>"Rest_API"</skills_3>
-		<skill_4>"SQL"</skills_4>
-		<skill_5>"DevTools"</skills_5>
-		<skill_6>"Mobile_testing"</skills_6>
-		<skill_7>"Postman"</skills_7>
-		<skill_8>"Theory_of_software_testing"</skills_8>
-		<skill_9>"Work_with_documentations"</skills_9>
-		<skill_10>"Understanding_of_client-server_architecture</skills_10>
+		<skill_1>"Command_line"</skill_1>
+		<skill_2>"GitHub"</skill_2>
+		<skill_3>"Rest_API"</skill_3>
+		<skill_4>"SQL"</skill_4>
+		<skill_5>"DevTools"</skill_5>
+		<skill_6>"Mobile_testing"</skill_6>
+		<skill_7>"Postman"</skill_7>
+		<skill_8>"Theory_of_software_testing"</skill_8>
+		<skill_9>"Work_with_documentations"</skill_9>
+		<skill_10>"Understanding_of_client-server_architecture</skill_10>
 	</Type_of_skills>
 </root>
