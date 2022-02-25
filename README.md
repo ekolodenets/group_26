@@ -1,5 +1,5 @@
  # QA
-<hr>
+ 
 <a href="#bash"><img src="https://img.shields.io/badge/Homework-BASH-brightgreen" /></a>
 <a href="#github"><img src="https://img.shields.io/badge/Homework-GITHUB-brightgreen" /></a>
 <a href="#postman"><img src="https://img.shields.io/badge/Homework-POSTMAN-brightgreen" /></a>
