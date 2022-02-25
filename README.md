@@ -1,5 +1,75 @@
 # QA
-> POSTMAN
+
+<a href="#"><img src="https://img.shields.io/badge/STUDYING-BASH-brightgreen" /></a><br>
+<details>
+ <summary>Bash_HW_1</summary>
+  
+
+1) Посмотреть где я
+	```bash
+	pwd
+2) Создать папку
+	```bash
+	mkdir new_folder
+3) Зайти в папку
+	```bash
+	cd new_folder
+4) Создать 3 папки
+	```bash
+	mkdir nf_1 nf_2 nf_3
+5) Зайти в любоую папку
+	```bash
+	cd nf_1
+6) Создать 5 файлов (3 txt, 2 json)
+	```bash
+	touch tf_1.txt tf_2.txt tf_3.txt jf_1.json jf_2.json
+7) Создать 3 папки
+	```bash
+	mkdir nf_1_1 nf_1_2 nf_1_3 
+8. Вывести список содержимого папки
+	```bash
+	ls -la
+9) + Открыть любой txt файл
+	```bash
+	vim tf_1.txt
+10) + написать туда что-нибудь, любой текст.
+	```bash
+	i Hello world
+11) + сохранить и выйти.
+	```bash
+	Esc :wq
+12) Выйти из папки на уровень выше
+	```bash
+	cd ..
+13) переместить любые 2 файла, которые вы создали, в любую другую папку.
+	```bash
+	mv nf_1/tf_1.txt nf_1/tf_2.txt nf_2
+14) скопировать любые 2 файла, которые вы создали, в любую другую папку.
+	```bash
+	cp nf_1/tf_3.txt nf_1/jf_1.json nf_3
+15) Найти файл по имени
+	```bash
+	find . -name jf_1.json
+16) просмотреть содержимое в реальном времени (команда grep) изучите как она работает.
+	```bash
+	tail -f
+17) вывести несколько первых строк из текстового файла
+	```bash
+	head -3 somefile.txt
+18) вывести несколько последних строк из текстового файла
+	```bash
+	tail -3 somefile.txt
+19) просмотреть содержимое длинного файла (команда less) изучите как она работает.
+	```bash
+	less test_file.txt
+20) вывести дату и время
+	```bash
+	date
+	
+</details>
+<hr>	
+	
+<a href="#"><img src="https://img.shields.io/badge/STUDYING-POSTMAN-brightgreen" /></a><br>
 <details>
  <summary>Postman HW_1</summary>
   
@@ -1451,5 +1521,114 @@
 	]
 }
 ```
+
+</details>
+<hr>
+
+<a href="#"><img src="https://img.shields.io/badge/STUDYING-QSL-brightgreen" /></a><br>
+<details>
+ <summary>SQL HW_1</summary>
+  
+
+1. Вывести все поля и все строки.	
+	```sql 
+	select * from students;
+2. Вывести всех студентов в таблице
+	```sql 
+	select * from students;
+3. Вывести только Id пользователей
+	```sql 
+	select id from students;
+4. Вывести только имя пользователей
+	```sql 
+	select name from students;
+5. Вывести только email пользователей
+	```sql 
+	select email from students;
+6. Вывести имя и email пользователей
+	```sql 
+	select name, email from students;
+7. Вывести id, имя, email и дату создания пользователей
+	```sql 
+	select id, name, email, created_on FROM students;
+8. Вывести пользователей где password 12333
+	```sql 
+	select * from students where password='12333';
+9. Вывести пользователей которые были созданы 2021-03-26 00:00:00
+	```sql 
+	select * from students where created_on = '2021-03-26 00:00:00';
+10. Вывести пользователей где в имени есть слово Анна
+	```sql 
+	select * from students where name like '%Anna%';
+11. Вывести пользователей где в имени в конце есть 8
+	```sql 
+	select * from students where name like '%8';
+12. Вывести пользователей где в имени в есть буква а
+	```sql 
+	select * from students where name like '%a';
+13. Вывести пользователей которые были созданы 2021-07-12 00:00:00
+	```sql 
+	select * from students where created_on = '2021-07-12 00:00:00';
+14. Вывести пользователей которые были созданы 2021-07-12 00:00:00 и имеют пароль 1m313
+	```sql 
+	select * from students where created_on = '2021-07-12 00:00:00' and password='1m313';
+15. Вывести пользователей которые были созданы 2021-07-12 00:00:00 и у которых в имени есть слово Andrey
+	```sql 
+	select * from students where created_on = '2021-07-12 00:00:00' and name like 'Andrey%';
+16. Вывести пользователей которые были созданы 2021-07-12 00:00:00 и у которых в имени есть цифра 8
+	```sql 
+	select * from students where created_on = '2021-07-12 00:00:00' and name like '%8%';
+17. Вывести пользователя у которых id равен 110
+	```sql 
+	select * from students where id=110;
+18. Вывести пользователя у которых id равен 153
+	```sql 
+	select * from students where id=153;
+19. Вывести пользователя у которых id больше 140
+	```sql 
+	select * from students where id > 140;
+20. Вывести пользователя у которых id меньше 130
+	```sql 
+	select * from students where id < 130;
+21. Вывести пользователя у которых id меньше 127 или больше 188
+	```sql 
+	select * from students where id < 127 or id > 188;
+22. Вывести пользователя у которых id меньше либо равно 137
+	```sql 
+	select * from students where id <= 137;
+23. Вывести пользователя у которых id больше либо равно 137
+	```sql 
+	select * from students where id >= 137;
+24. Вывести пользователя у которых id больше 180 но меньше 190
+	```sql 
+	select * from students where id > 180 and id < 190;
+25. Вывести пользователя у которых id между 180 и 190
+	```sql 
+	select * from students where id between 180 and 190;
+26. Вывести пользователей где password равен 12333, 1m313, 123313
+	```sql 
+	select * from students 
+	where password = '12333' or password ='1m313' or password ='123313';
+27. Вывести пользователей где created_on равен 2020-10-03 00:00:00, 2021-05-19 00:00:00, 2021-03-26 00:00:00
+	```sql 
+	select * from students 
+	where created_on = '2020-10-03 00:00:00' or created_on ='2021-05-19 00:00:00' or created_on ='2021-03-26 00:00:00';
+28. Вывести минимальный id 
+	```sql 
+	select min(id) from students;
+29. Вывести максимальный.
+	```sql 
+	select max(id) from students;
+30. Вывести количество пользователей
+	```sql 
+	select count(id) from students;
+31. Вывести id пользователя, имя, дату создания пользователя. Отсортировать по порядку возрастания даты добавления пользоватлеля.
+	```sql 
+	select id, name, created_on from students
+	order by created_on asc;
+32. Вывести id пользователя, имя, дату создания пользователя. Отсортировать по порядку убывания даты добавления пользоватлеля.
+	```sql 
+	select id, name, created_on from students
+	order by created_on desc;
 
 </details>
