@@ -3,7 +3,7 @@
 <a href="#bash"><img src="https://img.shields.io/badge/Homework-BASH-brightgreen" /></a>
 <a href="#github"><img src="https://img.shields.io/badge/Homework-GITHUB-brightgreen" /></a>
 <a href="#postman"><img src="https://img.shields.io/badge/Homework-POSTMAN-brightgreen" /></a>
-<a href="#sql"><img src="https://img.shields.io/badge/Homework-QSL-brightgreen" /></a><br>
+<a href="#sql"><img src="https://img.shields.io/badge/Homework-SQL-brightgreen" /></a><br>
 <hr>
 
 ## Bash
